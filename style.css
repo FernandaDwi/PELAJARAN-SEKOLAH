@@ -1,0 +1,32 @@
+*{
+    margin:0px;
+}
+
+
+nav{
+    background-color: aqua;
+}
+
+.kolom{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.kolom2{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    gap: 50px;
+}
+.navigasi > .kolom > .kolom2 > li > ul {
+    display: none;
+}
+.navigasi > .kolom > .kolom2 > li:hover > ul{ 
+    display: block;
+}
+.navigasi > .kolom > .kolom2 > li {
+    list-style-type: none;
+}
+.navigasi > .kolom > .kolom2 > li > ul {
+    list-style-type: none;
+}
